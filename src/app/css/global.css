@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-background: #ffffff;
+  --text-color-primary: #151317;
+  --font-default: "Roboto", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  background-color: var(--color-background) !important;
+  color: var(--text-color-primary) !important;
+  font-family: var(--font-default);
+  overflow-x: hidden;
+}
